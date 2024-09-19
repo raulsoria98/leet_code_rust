@@ -1,9 +1,9 @@
-use problems::diff_ways_to_compute::diff_ways_to_compute;
+use problems::longest_palindrome::longest_palindrome;
 
 mod problems;
 
 fn main() {
-    let res = diff_ways_to_compute("2-1-1".to_string());
+    let res = longest_palindrome("abab".to_string());
 
     println!("{:?}", res)
 }
