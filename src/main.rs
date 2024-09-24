@@ -1,9 +1,9 @@
-use problems::longest_palindrome::longest_palindrome;
+use problems::shortest_palindrome::shortest_palindrome;
 
 mod problems;
 
 fn main() {
-    let res = longest_palindrome("abab".to_string());
+    let res = shortest_palindrome("adcba".to_string());
 
     println!("{:?}", res)
 }
