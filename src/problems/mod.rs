@@ -1,4 +1,5 @@
 pub mod add_two_numbers;
+pub mod can_arrange;
 pub mod combination_sum2;
 pub mod diff_ways_to_compute;
 pub mod is_palindrome;
