@@ -1,5 +1,11 @@
 #![allow(dead_code)]
 
+/*
+
+Given an integer x, return true if x is a palindrome , and false otherwise.
+
+*/
+
 pub fn is_palindrome(x: i32) -> bool {
     let x_str = x.to_string();
     let reversed: String = x_str.chars().rev().collect();

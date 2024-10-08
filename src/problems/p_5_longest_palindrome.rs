@@ -1,5 +1,11 @@
 #![allow(dead_code)]
 
+/*
+
+Given a string s, return the longest palindromic substring in s.
+
+*/
+
 pub fn longest_palindrome(s: String) -> String {
     let len = s.len();
     if len <= 1 {

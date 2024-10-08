@@ -1,5 +1,15 @@
 #![allow(dead_code)]
 
+/*
+
+Given an array of integers arr of even length n and an integer k.
+
+We want to divide the array into exactly n / 2 pairs such that the sum of each pair is divisible by k.
+
+Return true If you can find a way to do that or false otherwise.
+
+*/
+
 pub fn can_arrange(arr: Vec<i32>, k: i32) -> bool {
     let mut remainder_count = vec![0; k as usize];
 

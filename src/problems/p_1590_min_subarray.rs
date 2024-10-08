@@ -1,5 +1,16 @@
 #![allow(dead_code)]
 
+/*
+
+Given an array of positive integers nums, remove the smallest subarray (possibly empty) such that the sum of the
+remaining elements is divisible by p. It is not allowed to remove the whole array.
+
+Return the length of the smallest subarray that you need to remove, or -1 if it's impossible.
+
+A subarray is defined as a contiguous block of elements in the array.
+
+*/
+
 fn min_subarray(nums: Vec<i32>, p: i32) -> i32 {
     let total_sum: i64 = nums.iter().map(|&x| x as i64).sum();
     let p = p as i64;

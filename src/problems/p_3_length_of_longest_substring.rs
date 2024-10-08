@@ -1,5 +1,11 @@
 #![allow(dead_code)]
 
+/*
+
+Given a string s, find the length of the longest substring without repeating characters.
+
+*/
+
 pub fn length_of_longest_substring(s: String) -> i32 {
     let characters: Vec<char> = s.chars().collect();
     let mut longest = "".to_string();

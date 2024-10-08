@@ -1,5 +1,13 @@
 #![allow(dead_code)]
 
+/*
+
+Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.
+
+Since the result may be very large, so you need to return a string instead of an integer.
+
+*/
+
 pub fn largest_number(nums: Vec<i32>) -> String {
     let mut str_nums: Vec<String> = nums.iter().map(|n| n.to_string()).collect();
 

@@ -1,9 +1,17 @@
 #![allow(dead_code)]
 
-use std::collections::HashMap;
+/*
+
+A sentence is a string of single-space separated words where each word consists only of lowercase letters.
+
+A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+
+Given two sentences s1 and s2, return a list of all the uncommon words. You may return the answer in any order.
+
+*/
 
 pub fn uncommon_from_sentences(s1: String, s2: String) -> Vec<String> {
-    let mut word_count = HashMap::new();
+    let mut word_count = std::collections::HashMap::new();
 
     for word in s1.split_whitespace().chain(s2.split_whitespace()) {
         *word_count.entry(word).or_insert(0) += 1;
