@@ -13,4 +13,5 @@ pub mod p_40_combination_sum2;
 pub mod p_5_longest_palindrome;
 pub mod p_7_reverse;
 pub mod p_884_uncommon_from_sentences;
+pub mod p_911_min_add_to_make_valid;
 pub mod p_9_is_palindrome;
