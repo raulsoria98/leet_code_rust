@@ -2,6 +2,7 @@ pub mod p_1331_array_rank_transform;
 pub mod p_1497_can_arrange;
 pub mod p_1590_min_subarray;
 pub mod p_179_largest_number;
+pub mod p_1942_smallest_chair;
 pub mod p_1963_min_swaps;
 pub mod p_1_two_sum;
 pub mod p_214_shortest_palindrome;
