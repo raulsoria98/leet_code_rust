@@ -8,6 +8,7 @@ pub mod p_1_two_sum;
 pub mod p_214_shortest_palindrome;
 pub mod p_241_diff_ways_to_compute;
 pub mod p_2491_divide_players;
+pub mod p_2938_minimum_steps;
 pub mod p_2_add_two_numbers;
 pub mod p_3_length_of_longest_substring;
 pub mod p_40_combination_sum2;
