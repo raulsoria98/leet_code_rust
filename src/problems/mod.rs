@@ -1,4 +1,5 @@
 pub mod p_1331_array_rank_transform;
+pub mod p_1405_longest_diverse_string;
 pub mod p_1497_can_arrange;
 pub mod p_1590_min_subarray;
 pub mod p_179_largest_number;
