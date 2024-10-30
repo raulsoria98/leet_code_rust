@@ -1,9 +1,9 @@
-use problems::p_1331_array_rank_transform::array_rank_transform;
+use problems::p_1671_minimum_mountain_removals::minimum_mountain_removals;
 
 mod problems;
 
 fn main() {
-    let res = array_rank_transform(vec![4, 2, 1, 5, 2]);
+    let res = minimum_mountain_removals(vec![2, 1, 1, 5, 6, 2, 3, 1]);
 
     println!("{:?}", res)
 }
